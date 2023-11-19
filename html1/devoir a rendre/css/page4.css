@@ -7,25 +7,25 @@ body{display: flex;}
 
 nav{
     background-color: rgb(203, 153, 26);
-    min-height: 100vh;
+    height: 400vh;
     width: 15vw;
 }
 
 header{
     background-color: rgb(162, 65, 38);
     min-height: 20vh;
-    width: 90vw;
+    width: 250vw;
 
 }
 .flex{
     display: flex;
 }
 .flex div{
-    width: 90vw;
+    width: 126vw;
 }
 article{
     background-color: rgb(81, 38, 26);
-    min-height: 60vh;
+    height: 400vh;
 }
 footer{
     background-color: rgb(81, 38, 26);
@@ -41,7 +41,7 @@ footer{
 }
 
 
- @media all and (max-device-width: 360px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
+ @media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
 {
     body{
         width: 360vw;
